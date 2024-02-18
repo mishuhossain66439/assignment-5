@@ -12,7 +12,7 @@
 </head>
 <body>
     <nav class="m-10">
-        <div class="navbar bg-base-200">
+        <div class="navbar bg-base-100 rounded-lg">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -42,41 +42,73 @@
     </nav>
 
     <main class="">
-        <section class="bg-[url(images/banner.png)] bg-no-repeat bg-center items-center">
+        <section class="-mt-20 bg-[url(images/banner.png)] bg-no-repeat bg-center items-center">
          <div class="min-h-screen flex flex-col items-center justify-center gap-10">
             <h1 class="text-center text-6xl text-white">End-to-End Travel with</h1>
             <h2 class="text-center text-5xl text-green-400">P Paribahan</h2>
             <p class="text-center">Yes, you can run unit tests and view the results directly within the app. 
                 The <br>integrated testing features allow for a streamlined .</p>
-            <button id="buy-ticket" class="btn bg-[#56ec8a] border-none">Buy Ticket</button>   
-            
+            <button id="buy-ticket" class="btn bg-[#56ec8a] border-none">Buy Ticket</button> 
          </div> 
-        </section>
-
-        <div class="min-w-10 flex gap-10 justify-center bg-top">
-            <div class="card card-side bg-base-100 shadow-xl">
-                <figure><img src="./images/people.png" alt="Movie"/></figure>
-                <div class="card-body">
-                  <h2 class="card-title">500K+</h2>
-                  <p></p>
-                </div>
+         <div class="flex gap-10 justify-center items-baseline ">
+          <div class="card card-side bg-base-100 shadow-2xl rounded-lg border-b-4 border-b-green-500">
+            <figure><img src="./images/people.png" alt="Movie"/></figure>
+            <div class="card-body">
+              <h2 class="card-title">500K+</h2>
+              <p>Registered users</p>
             </div>
+           </div>
+          <div class="card card-side bg-base-100 shadow-2xl rounded-lg border-b-4 border-b-green-500">
+            <figure><img src="./images/ticket-cupon.png" alt="Movie"/></figure>
+            <div class="card-body">
+              <h2 class="card-title">1.7 lacks</h2>
+              <p>Ticket Sold</p>
+            </div>
+          </div>
+          <div class="card card-side bg-base-100 shadow-2xl rounded-lg border-b-4 border-b-green-500">
+            <figure><img src="./images/stoppage.png" alt="Movie"/></figure>
+            <div class="card-body">
+              <h2 class="card-title">80K+</h2>
+              <p>Rental partners</p>
+            </div>
+          </div>
+      </div>
+        </section>
+         <!-- offer section -->
+        <section class="mt-20 text-center">
+              <h1 class="text-center text-4xl">Best offers for you</h1>
+              <div class="p-20 mt-10 flex gap-5 text-center">
+                <div class="m-8 min-h-40 flex gap-0.5 card-bordered border-dotted border-r-2 text-center">
+                  <div class="card w-full shadow-xl items-center justify-center bg-yellow-300 rounded-tr-2xl text-center">
+                      <h2 class="font-bold ">15% OFF</h2>
+                      <p>on your next purchase</p>
+                      <p class="">use by January 2024</p>
+                  </div>
+                  <div class="card w-96 shadow-xl items-center justify-center  bg-yellow-300 rounded-tr-2xl text-center">
+                    <h2 class="card-title">NEW15</h2>
+                    <p>Coupon Code</p>
+                  </div>
 
-              <div class="card card-side bg-base-100 shadow-xl">
-                <figure><img src="./images/ticket-cupon.png" alt="Movie"/></figure>
-                <div class="card-body">
-                  <h2 class="card-title">500K+</h2>
-                  <p></p>
-                </div>
-              </div>
-              <div class="card card-side bg-base-100 shadow-xl">
-                <figure><img src="./images/stoppage.png" alt="Movie"/></figure>
-                <div class="card-body">
-                  <h2 class="card-title">500K+</h2>
-                  <p></p>
-                </div>
-              </div>
+                  <div class="min-h-40 ml-8 flex gap-0.5 card-bordered border-dotted border-r-2 text-center">
+                  <div class="card w-96 shadow-xl items-center justify-center bg-pink-400 rounded-tr-2xl text-center">
+                      <h2 class="font-bold ">20% OFF</h2>
+                      <p>on your next purchase</p>
+                      <p class="">use by January 2024</p>
+                  </div>
+                  <div class="border-r-dotted card min-w-40 shadow-2xl items-center justify-center text-center bg-pink-400 rounded-tr-2xl">
+                    <h2 class="card-title">Couple 20</h2>
+                    <p>Coupon Code</p>
+                  </div>
+                </div>  
+              </div> 
+
+        </section>
+        <div class="justify-center text-center ">
+          <button class="btn border-t-neutral-50 sm:btn-sm md:btn-md lg:btn-lg">See All Offers</button>
         </div>
+        
+      
+        
          
         <div>
 
