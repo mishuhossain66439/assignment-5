@@ -18,11 +18,3 @@ function removeBackgroundColorById(elementId){
 }
 
 
-
-function getbillAmountBDT(){
-
-}
-
-function getsetPlanwithId(){
-
-}
